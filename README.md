@@ -15,7 +15,7 @@ An energy efficient proof-of-stake algorithm is utilized, can be mined on any co
 <tr><td>Ticker</td><td>CLX</td></tr>
 <tr><td>Algorithm</td><td>Quark</td></tr>
 <tr><td>Max Coin Supply</td><td>21.000.000</td></tr>
-<tr><td>Premine</td><td>2.000.000</td></tr>
+<tr><td>Premine</td><td>1.000.000</td></tr>
 <tr><td>Masternode Collateral</td><td>10.000 CLX</td></tr>
 <tr><td>Block time</td><td>60 seconds</td></tr>
 <tr><td>Block reward split</td><td>85% Masternodes / 15% staking</td></tr>
