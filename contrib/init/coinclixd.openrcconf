@@ -1,0 +1,26 @@
+# /etc/conf.d/coinclixd: config file for /etc/init.d/coinclixd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/root/.coinclix/coinclix.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/root/.coinclix"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/coinclixd.pid"
+
+# Where to write coinclixd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/root/.coinclix/"
+
+# User and group to own coinclixd process
+#BITCOIND_USER="coinclix"
+#BITCOIND_GROUP="coinclix"
+
+# Path to coinclixd executable
+#BITCOIND_BIN="/root/coinclix/coinclixd"
+
+# Nice value to run coinclixd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

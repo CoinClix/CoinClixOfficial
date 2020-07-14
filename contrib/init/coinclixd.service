@@ -1,0 +1,23 @@
+[Unit]
+Description=CoinClix Core daemon
+After=network.target
+
+[Service]
+User=root
+Group=root
+
+Type=forking
+
+ExecStart=/root/coinclix/coinclixd -daemon -conf=/root/.coinclix/coinclix.conf -datadir=/root/.coinclix
+
+ExecStop=-/root/coinclix/coinclix-cli -conf=/root/.coinclix/coinclix.conf -datadir=/root/.coinclix stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=10s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

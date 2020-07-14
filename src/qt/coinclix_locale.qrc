@@ -1,0 +1,29 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/coinclix_bg.qm</file>
+        <file alias="ca">locale/coinclix_ca.qm</file>
+        <file alias="cs">locale/coinclix_cs.qm</file>
+        <file alias="da">locale/coinclix_da.qm</file>
+        <file alias="de">locale/coinclix_de.qm</file>
+        <file alias="en">locale/coinclix_en.qm</file>
+        <file alias="en_US">locale/coinclix_en_US.qm</file>
+        <file alias="es">locale/coinclix_es.qm</file>
+        <file alias="fi">locale/coinclix_fi.qm</file>
+        <file alias="fr_FR">locale/coinclix_fr_FR.qm</file>
+        <file alias="it">locale/coinclix_it.qm</file>
+        <file alias="ja">locale/coinclix_ja.qm</file>
+        <file alias="ko_KR">locale/coinclix_ko_KR.qm</file>
+        <file alias="nl">locale/coinclix_nl.qm</file>
+        <file alias="pl">locale/coinclix_pl.qm</file>
+        <file alias="pt">locale/coinclix_pt.qm</file>
+        <file alias="pt_BR">locale/coinclix_pt_BR.qm</file>
+        <file alias="ro_RO">locale/coinclix_ro_RO.qm</file>
+        <file alias="ru">locale/coinclix_ru.qm</file>
+        <file alias="sk">locale/coinclix_sk.qm</file>
+        <file alias="sv">locale/coinclix_sv.qm</file>
+        <file alias="tr">locale/coinclix_tr.qm</file>
+        <file alias="uk">locale/coinclix_uk.qm</file>
+        <file alias="zh_CN">locale/coinclix_zh_CN.qm</file>
+        <file alias="zh_TW">locale/coinclix_zh_TW.qm</file>
+    </qresource>
+</RCC>

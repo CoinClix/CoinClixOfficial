@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=CoinClix
+Comment=CoinClix P2P Cryptocurrency
+Exec=coinclix-qt %u
+Terminal=false
+Type=Application
+Icon=coinclix128
+MimeType=x-scheme-handler/coinclix;
+Categories=Office;Finance;
+Name[en_US]=coinclix-qt.desktop
